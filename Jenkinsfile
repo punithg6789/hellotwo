@@ -18,14 +18,14 @@ pipeline {
         stage ('Testing Stage') {
 
             steps {
-                echo 'Hello World'
+                echo 'Building'
             }
         }
 
 
         stage ('Deployment Stage') {
             steps {
-                echo 'Hello World'
+                echo 'Deploy'
             }
         }
     }
